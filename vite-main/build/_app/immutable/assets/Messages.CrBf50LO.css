@@ -1,0 +1,44 @@
+
+	@keyframes svelte-tclqny-pulse {
+		0%,
+		100% {
+			opacity: 1;
+		}
+		50% {
+			opacity: 0.6;
+		}
+	}
+
+	.pulse.svelte-tclqny {
+		opacity: 1;
+		animation: svelte-tclqny-pulse 1.5s ease;
+	}
+
+	.buttons.svelte-1qscqw6::-webkit-scrollbar {
+		display: none; /* for Chrome, Safari and Opera */
+	}
+
+	.buttons.svelte-1qscqw6 {
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+	}
+
+	/* Waterfall animation for the suggestions */
+	@keyframes svelte-6tnq1o-fadeInUp {
+		0% {
+			opacity: 0;
+			transform: translateY(20px);
+		}
+		100% {
+			opacity: 1;
+			transform: translateY(0);
+		}
+	}
+
+	.waterfall.svelte-6tnq1o {
+		opacity: 0;
+		animation-name: svelte-6tnq1o-fadeInUp;
+		animation-duration: 200ms;
+		animation-fill-mode: forwards;
+		animation-timing-function: ease;
+	}

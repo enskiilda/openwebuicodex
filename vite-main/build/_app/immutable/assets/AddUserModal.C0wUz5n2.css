@@ -1,0 +1,40 @@
+
+	input.svelte-zhsfcf::-webkit-outer-spin-button,
+	input.svelte-zhsfcf::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	}
+
+	/* (unused) .tabs::-webkit-scrollbar {
+		display: none; /* for Chrome, Safari and Opera *\/
+	}*/
+
+	/* (unused) .tabs {
+		-ms-overflow-style: none; /* IE and Edge *\/
+		scrollbar-width: none; /* Firefox *\/
+	}*/
+
+	/* (unused) input[type='number'] {
+		-moz-appearance: textfield; /* Firefox *\/
+	}*/
+
+	input.svelte-1ga5uvq::-webkit-outer-spin-button,
+	input.svelte-1ga5uvq::-webkit-inner-spin-button {
+		/* display: none; <- Crashes Chrome on hover */
+		-webkit-appearance: none;
+		margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+	}
+
+	/* (unused) .tabs::-webkit-scrollbar {
+		display: none; /* for Chrome, Safari and Opera *\/
+	}*/
+
+	/* (unused) .tabs {
+		-ms-overflow-style: none; /* IE and Edge *\/
+		scrollbar-width: none; /* Firefox *\/
+	}*/
+
+	/* (unused) input[type='number'] {
+		-moz-appearance: textfield; /* Firefox *\/
+	}*/

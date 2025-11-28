@@ -1,0 +1,23 @@
+# Ignore files for PNPM, NPM and YARN
+pnpm-lock.yaml
+package-lock.json
+yarn.lock
+
+# SvelteKit and build output
+.DS_Store
+node_modules
+/build
+/.svelte-kit
+/package
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Vite config timestamp files
+vite.config.js.timestamp-*
+vite.config.ts.timestamp-*
+
+# Static files
+/static/*

@@ -1,0 +1,24 @@
+const APP_NAME = "Open WebUI";
+const WEBUI_BASE_URL = ``;
+const WEBUI_API_BASE_URL = `${WEBUI_BASE_URL}/api/v1`;
+const OLLAMA_API_BASE_URL = `${WEBUI_BASE_URL}/ollama`;
+const OPENAI_API_BASE_URL = `${WEBUI_BASE_URL}/openai`;
+const AUDIO_API_BASE_URL = `${WEBUI_BASE_URL}/api/v1/audio`;
+const IMAGES_API_BASE_URL = `${WEBUI_BASE_URL}/api/v1/images`;
+const RETRIEVAL_API_BASE_URL = `${WEBUI_BASE_URL}/api/v1/retrieval`;
+const WEBUI_VERSION = "0.6.40";
+const WEBUI_BUILD_HASH = "dev-build";
+const PASTED_TEXT_CHARACTER_LIMIT = 1e3;
+export {
+  AUDIO_API_BASE_URL as A,
+  IMAGES_API_BASE_URL as I,
+  OLLAMA_API_BASE_URL as O,
+  PASTED_TEXT_CHARACTER_LIMIT as P,
+  RETRIEVAL_API_BASE_URL as R,
+  WEBUI_VERSION as W,
+  WEBUI_API_BASE_URL as a,
+  WEBUI_BASE_URL as b,
+  OPENAI_API_BASE_URL as c,
+  APP_NAME as d,
+  WEBUI_BUILD_HASH as e
+};
