@@ -19,8 +19,13 @@
         import '../app.css';
 
         import { WEBUI_BASE_URL } from '$lib/constants';
+        import { setupMockApi } from '$lib/mocks/api';
 
         setContext('i18n', i18n);
+
+        if (typeof window !== 'undefined') {
+                setupMockApi();
+        }
 
         let loaded = true;
 
